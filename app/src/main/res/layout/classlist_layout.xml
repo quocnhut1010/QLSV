@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnOpenClass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm lớp học" />
+
+    <ListView
+        android:id="@+id/lstclass"
+        android:layout_width="fill_parent"
+        android:layout_height="888dp" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoat" />
+
+</LinearLayout>

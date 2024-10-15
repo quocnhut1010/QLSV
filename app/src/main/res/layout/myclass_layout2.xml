@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:stretchColumns="*"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/txtclasscode"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtclassname"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtclassnumber"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center" />
+</TableRow>
