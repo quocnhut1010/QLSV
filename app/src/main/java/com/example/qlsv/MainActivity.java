@@ -30,12 +30,13 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-//        btnOpenClass.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, StudentListActivity.class);
-//            }
-//        });
+        btnOpenStudent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, StudentList.class);
+                startActivity(intent);
+            }
+        });
         btnExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

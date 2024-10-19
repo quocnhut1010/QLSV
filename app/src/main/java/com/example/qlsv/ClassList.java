@@ -24,6 +24,7 @@ import java.util.ArrayList;
 public class ClassList extends Activity {
     ListView lstClass;
     Button btnOpenClass;
+    Button btnExitClass;
     ArrayList<Room> classList = new ArrayList<>();
     MyAdapterClass adapter;
     SQLiteDatabase db;
@@ -100,6 +101,7 @@ public class ClassList extends Activity {
         setContentView(R.layout.classlist_layout);
         lstClass = findViewById(R.id.lstclass);
         btnOpenClass = findViewById(R.id.btnOpenClass);
+        btnExitClass = findViewById(R.id.btnexit);
 
         getClassList();
 
@@ -112,6 +114,13 @@ public class ClassList extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(ClassList.this, InsertClassActivity.class);
                 startActivityForResult(intent, OPEN_CLASS);
+            }
+        });
+
+        btnExitClass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Notify.exit(ClassList.this);
             }
         });
 

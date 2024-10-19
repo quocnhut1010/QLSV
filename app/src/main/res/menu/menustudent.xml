@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menudeletesudent"
+        android:title="Xóa sinh viên" />
+    <item
+        android:id="@+id/menueditstudent"
+        android:title="Sửa sinh viên" />
+    <item
+        android:id="@+id/menuclosestudent"
+        android:title="Thoát danh sach sinh viên" />
+</menu>

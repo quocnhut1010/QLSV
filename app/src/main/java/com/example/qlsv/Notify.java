@@ -3,6 +3,7 @@ package com.example.qlsv;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.widget.Toast;
 
 public class Notify {
     public static void exit(Context context){
